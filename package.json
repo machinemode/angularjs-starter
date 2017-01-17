@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "bundle": "gulp bundle",
+    "postinstall": "gulp sass",
     "sass": "gulp sass",
     "start": "concurrently 'gulp watch' 'lite-server'",
     "test": "gulp sass && karma start"
