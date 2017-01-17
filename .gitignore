@@ -1,4 +1,6 @@
-**/*.css
+src/**/*.css
+
+dist/**/*.css
 dist/**/*.js
 
 npm-debug.log*
