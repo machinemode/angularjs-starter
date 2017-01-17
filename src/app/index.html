@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<base href=".">
+	<link href="../../dist/styles.css" rel="stylesheet">
+</head>
+
+<body ng-app="app" ng-strict-di>
+	<lib-docs></lib-docs>
+
+	<!-- Not the recommended for production -->
+	<script src="../../node_modules/systemjs/dist/system.js"></script>
+	<script src="../../systemjs.config.js"></script>
+	<script>
+		System.import('src').catch(console.error.bind(console));
+	</script>
+
+</body>
+
+</html>

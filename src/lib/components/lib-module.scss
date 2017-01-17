@@ -1,0 +1,11 @@
+@import '../../node_modules/angular-material/angular-material.css';
+
+@import './ugly-button/ugly-button';
+@import './button/dense-button';
+
+
+// Global override of material button min-height
+.md-button {
+	min-height: 40px;
+}
+

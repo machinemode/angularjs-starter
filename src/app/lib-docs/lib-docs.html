@@ -1,0 +1,27 @@
+<div ng-controller="DocsController">
+	<md-sidenav class="md-sidenav-left"
+				md-component-id="left">
+
+		<!-- https://ui-router.github.io/ng1/docs/latest/modules/directives.html#uisref -->
+		<a ui-sref="button" ui-sref-active="active">Button</a>
+		<a ui-sref="ugly-button" ui-sref-active="active">Ugly Button</a>
+
+	</md-sidenav>
+
+	<md-content>
+		<md-toolbar>
+			<div class="md-toolbar-tools">
+				<md-button 	class="md-icon-button"
+							aria-label="Menu"
+							ng-click="openSideNav()">
+					<md-icon md-font-set="material-icons">menu</md-icon>
+				</md-button>
+				<span>Docs</span>
+			</div>
+		</md-toolbar>
+
+		<!-- https://ui-router.github.io/ng1/docs/latest/modules/directives.html#uiview -->
+		<ui-view></ui-view>
+
+	</md-content>
+</div>
