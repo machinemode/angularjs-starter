@@ -1,4 +1,5 @@
 import template from './lib-docs.html';
+import { ROUTER_STATES } from '../routes';
 
 class DocsController {
 	// See https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md#manually-identify-dependencies
@@ -8,6 +9,8 @@ class DocsController {
 		$scope.openSideNav = () => {
 			$mdSidenav('left').toggle();
 		};
+
+		$scope.routes = ROUTER_STATES;
 	}
 }
 

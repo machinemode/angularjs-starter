@@ -5,11 +5,17 @@ export const ROUTER_STATES = [
 	{
 		name: 'ugly-button',
 		url: '/ugly-button',
-		template: uglyButtonDemo
+		template: uglyButtonDemo,
+		data: {
+			title: 'Ugly Button'
+		}
 	},
 	{
 		name: 'button',
 		url: '/button',
-		template: buttonDemo
+		template: buttonDemo,
+		data: {
+			title: 'Button'
+		}
 	}
 ];

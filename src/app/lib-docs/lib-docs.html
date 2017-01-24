@@ -1,11 +1,12 @@
 <div ng-controller="DocsController">
 	<md-sidenav class="md-sidenav-left"
 				md-component-id="left">
-
 		<!-- https://ui-router.github.io/ng1/docs/latest/modules/directives.html#uisref -->
-		<a ui-sref="button" ui-sref-active="active">Button</a>
-		<a ui-sref="ugly-button" ui-sref-active="active">Ugly Button</a>
-
+		<ul>
+			<li ng-repeat="route in routes">
+				<a ui-sref="{{route.name}}" ui-sref-active="active">{{route.data.title}}</a>
+			</li>
+		</ul>
 	</md-sidenav>
 
 	<md-content>
