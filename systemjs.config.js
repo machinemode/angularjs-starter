@@ -18,8 +18,8 @@ System.config({
 	},
 	packages: {
 		'src': {
-			defaultExtension: 'js',
-			main: 'app/app-module.js',
+			defaultExtension: 'ts',
+			main: 'app/app-module',
 			meta: {
 				'*.html': {
 					loader: 'text'

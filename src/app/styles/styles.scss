@@ -1,6 +1,5 @@
 @import '../fonts/material/material-icons.css';
-@import 'lib-module';
-@import 'awesome-theme';
+@import 'core';
 
 html * {
 	font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -11,8 +10,4 @@ html, body {
 	height: 100%;
 	overflow: hidden;
 	margin: 0;
-
-	span {
-		color: $foo-color;
-	}
 }

@@ -1,4 +1,4 @@
-import template from './lib-docs.html';
+import template from './docs.html';
 import { ROUTER_STATES } from '../routes';
 
 class DocsController {

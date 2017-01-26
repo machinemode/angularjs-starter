@@ -1,5 +1,5 @@
-import uglyButtonDemo from './lib-docs/component-docs/ugly-button.html';
-import buttonDemo from './lib-docs/component-docs/button.html';
+import uglyButtonDemo from './docs/templates/ugly-button.html';
+import buttonDemo from './docs/templates/button.html';
 
 export const ROUTER_STATES = [
 	{
